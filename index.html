@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta content=”0; url=https://school.nasiwebhost.com/index.html” http-equiv=”refresh”>
-</head>
-<body>
-
-</body>
-</html>
+<?php
+//membuat metode redirect dengan kode 301
+header(“location: school.nasiwebhost.com/index.html”, true, 301);
+//membuat kode di bawah header tidak diproses oleh website sehingga lebih aman
+exit();
